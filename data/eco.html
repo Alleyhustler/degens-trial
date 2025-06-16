@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from newlambda.neocities.org/data/eco by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jun 2025 15:58:26 GMT -->
+<head>
+<link rel="stylesheet" href="newlambda.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESEARCH FACILITY</title>
+     <link rel="icon" href="favicond41d.ico?" type="image/x-icon"> 
+	<script src="../../ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    </head>
+  <body>  
+<audio id="click"><source src="keyboardtab.mp3" type="audio/mpeg"></audio>
+  <main> 
+<div class="outer">
+<div class="main"> 
+  <header>
+  <div><h1>NEW LAMBDA RESEARCH FACILITY</h1>
+<h2>Database Selection</h2></div>
+<img src="icon.png" class="icon">
+  </header>  
+  <article class="relative">
+<h3>Ecology</h3>
+<p>Extraterrestrial organisms have been able to survive on Earth despite many hardships presented by Earth's unfamiliar ecology. We seek to understand how these organisms have adapted to unfamiliar conditions, and how to most effectively and safely share our space with our new "neighbors".</p>
+<section class="contents"><h3>Test Chamber</h3>
+<img src="testchamb.gif">
+<p class="left">The arrival of extraterrestrial creatures to the Earth at large was caused by the Resonance Cascade, which provoked portal storms across the world. Before this, Black Mesa had been covertly studying extraterrestrial life. The first environment that many Xenian creatures were exposed to on Earth was that of Black Mesa's lifeless interior. Displaced and confused, these creatures quickly became unpredictable and violent.</p>
+<p><a href="http://www.mediafire.com/file/medq4u258i528k6/TestChamber.zip/file">Download</a><br>[Added 20X0]</p>
+<h3>Kleiner's Lab</h3>
+<img src="klab.gif">
+<p class="left">One of New Lambda's founders, Dr. Isaac Kleiner was previously a member of the Black Mesa Science Team. A pioneer of teleportation technology, Dr. Kleiner was also the first to explore domestication of headcrabs. Dr. Kleiner's headcrab "Lamarr" was the first successfully debeaked headcrab, and has provided much of the data we now have on the species.</p>
+<p><a href="http://www.mediafire.com/file/0xedv594m2qgjza/KleinersLab.zip/file">Download</a><br>[Added 20X0]</p>
+</section>
+</article>
+  <nav>
+<p><a href="research.html">About</a></p>
+<p><a href="xeno.html">Xenozoology</a></p>
+<p>Ecology</p>
+<p><a href="index.html">Return</a></p>
+<img src="../img/nlbutton1.gif" class="nlbutton">
+  </nav>
+</div>
+</div>
+</main>
+<div class="gome" onclick='playAudio("hahe.mp3")'></div>
+<script>
+$("a")
+  .each(function(i) {
+    if (i != 0) { 
+      $("#click")
+        .clone()
+        .attr("id", "click" + i)
+        .appendTo($(this).parent()); 
+    }
+    $(this).data("bttnclick", i);
+  })
+  .mouseenter(function() {
+    $("#click" + $(this).data("bttnclick"))[0].play();
+  });
+$("#click").attr("id", "click0");</script>
+    <script>
+function playAudio(url) {
+  new Audio(url).play();
+}
+</script>
+  </body>
+
+<!-- Mirrored from newlambda.neocities.org/data/eco by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jun 2025 15:58:27 GMT -->
+</html>

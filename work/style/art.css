@@ -1,0 +1,243 @@
+html {
+  overflow: -moz-scrollbars-vertical; 
+  overflow-y: scroll;
+  min-height: 100vh;}
+body {
+  background-color: #111111;
+  background-image: url('../../style/ep_naturalblack.png');
+  color: #b5b5b5;
+  font-family: 'MS UI Gothic', sans-serif;
+  padding:0;
+  margin:0; }
+::selection {
+  background: #b3b3b3;
+  color: #000;
+}
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #b5b5b5;
+  text-decoration: none;
+}
+a:active {
+  color: #ffffff;
+  text-decoration: none;
+} 
+a.inline:link {
+  color: #ffffff;
+  text-decoration: underline dotted;
+}
+a.inline:visited {
+  color: #ffffff;
+  text-decoration: underline dotted;
+}
+a.inline:hover {
+  color: #b5b5b5;
+  text-decoration: underline;
+}
+a.inline:active {
+  color: #ffffff;
+  text-decoration: underline;
+} 
+.seclink {
+  display:flex;
+  align-items:center;
+  margin:1rem auto;
+  background-color: #555555;
+  border: 1px solid #b5b5b5;
+  font-size:1.625rem;
+  max-height:100px;
+  max-width:80%;
+}
+.seclink:hover {
+  background-color: #767676;
+}
+seclink>p {
+  flex-basis:60%;
+}
+.secimghead {
+  border-left:1px solid #b5b5b5;
+  overflow:hidden;
+  flex-basis:40%;
+  height:100px; 
+  background-position: right;
+  opacity:inherit;
+}
+.biglink {
+  display:flex;
+  justify-content:center;
+  gap:2%;
+  margin:1rem auto 0}
+.biglink a{
+  background-color: #555555;
+  border: 1px solid #b5b5b5;
+  padding:.5rem;
+}
+.biglink a:hover{
+  background-color: #767676;
+}
+header {
+  display:block;
+	background-color: #111111;
+	border-bottom: 1px solid #999999;
+  overflow:hidden;
+}
+.headcont {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items:center;
+  gap:.5rem;
+  padding:.4rem 1rem .5rem 1rem;
+}
+.linkcont {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap:1rem;
+  margin: 0 auto 1rem;
+}
+h1 {
+  color:#fff;
+  font-size:1.625rem; 
+}
+header h1 {
+  margin: 0 .5rem 0 0;
+}
+h2 {
+  color:#fff;
+  margin:1rem auto .5rem;
+  font-weight:normal;
+}
+h3 {
+  color:#fff;
+  margin: .5rem auto;
+  font-size:1.125rem; 
+  font-weight:normal;
+}
+.imggallery>h3 {flex-basis:100%;margin:0 auto}
+.writhead { 
+  margin: .2rem;
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+h4 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin: .6rem auto 0;
+}
+h5 {
+  margin: .2rem auto;
+  font-weight: normal;
+}
+main {
+  width:90%;
+  margin:auto;
+  text-align:center;
+  margin-bottom:3.75rem;
+}
+article {
+  background-color: #333333;
+	border: 1px solid #999999;
+  max-width:56.25rem;
+  padding:1rem;
+  margin:auto;
+  margin-top:1rem;
+  text-align:center;
+}
+.index {
+  max-width:40rem;
+  margin-top:3rem
+}
+.seclink:hover {
+  opacity:80%;
+  border-color: #fff;
+}
+.imggallery{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap:.7rem;
+  margin:1rem auto;
+}
+p {
+  margin:0.625rem auto;
+}
+article>p:first-of-type{
+  margin-top:0;
+}
+article>p:last-of-type{
+  margin-bottom:0;
+}
+.center{
+  text-align:center;
+}
+.left{
+  text-align: left;
+}
+.flex{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:1rem;
+}
+.divi{
+  width:40%;
+}
+a.ul:hover {
+ text-decoration:underline; 
+}
+.gridit {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.gridit:hover {
+  opacity:80%
+}
+.gridit img {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 100%;
+}
+.tab {
+  overflow: hidden;
+  margin-bottom:10px;
+}
+.tab button {
+  font-family: 'MS UI Gothic', sans-serif;
+  color:white;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+  transition: 0.3s;
+  font-size: 1rem;
+}
+.tab button:hover {
+  color: #b5b5b5;
+}
+.tab button.active {
+  background-color: #555555;
+}
+.tabcontent {
+  display: none;
+}
+.desc {
+  max-width:760px;
+  margin-top: 0.4rem;
+  }

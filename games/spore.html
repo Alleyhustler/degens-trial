@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  
+<!-- Mirrored from newlambda.neocities.org/games/spore by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jun 2025 15:56:38 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>../games/spore</title>
+    <script src="../style/script.js"></script>
+    <link href="../style/indexsimple.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="../dist/css/glightbox.css">
+    <link rel="icon" href="../favicond41d.ico?" type="image/x-icon">
+    <style>
+  .gameimg{
+    max-width:700px;
+    margin:auto;}
+  .gameimg img{width:225px}
+  .creaturegrid{
+  display: grid;
+	grid-template-areas:
+		"creatures profile";
+	grid-template-columns: 1fr 1fr;
+  gap:1rem;}
+  .creaturegrid img {
+  opacity:80%}
+.creatures{ 
+  grid-area:creatures;
+  max-height:31.2rem;
+  overflow-y:scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #222222 #555555;
+  text-align:center;
+  padding:10px 0;}
+.creatures img  {
+  cursor: url('../style/petzpoint.png'), pointer;
+  width:26%
+  }
+#profile{
+  grid-area:profile;
+  align-content: flex-start;
+  gap:0;
+  width: fit-content;
+  margin: auto;
+  }
+#profile img {
+  max-width:85%;
+  border:solid 1px #000;
+  }
+#profile p {
+	font-family: var(--alt-font);
+	flex-basis:100%}
+#profile>p:first-child {
+	margin-top: 100px;}
+#profile>div>div {
+  flex-basis:40%;
+  }
+#profile>div:first-child>img {
+  max-height:355px
+  }
+@media screen and (max-width: 1000px) {
+  .creaturegrid{
+	grid-template-areas:
+		"creatures"
+		"profile";
+	grid-template-columns: 1fr;
+	grid-template-rows: 185px 310px;}
+.creatures img  {
+  width:50px
+}
+#profile img,#profile>div:first-child>img {
+  max-height:280px;
+  max-width:100%;}
+#profile>div {
+  flex-basis:62%;
+  }
+#profile>div:first-child {
+  flex-basis:34%;
+  }
+}
+@media screen and (max-width: 700px) {
+    .gameimg img{width:40%}
+}
+    </style>
+  </head>
+  <body>
+	<header>
+		<h1 class="logo"><a href="../index.html">:/newlambda</a></h1>
+		<div class="quote" id="quoteDisplay"></div>
+		<div class="logo2"></div>
+	</header>
+	<div class="headernav">
+		<button class="openbtn" id="openbtn" onclick="openNav()">☰</button> <a href="../index.html">index</a> > <a href="index.html">games</a> > spore
+	</div>
+	<main>
+		<nav id="navSidenav" class="sidenav">
+		<div class="navmenu" id="navmenu"></div>
+		</nav>
+		<section class="body">
+			<article><h2 class="headimg"><img src="img/spore.png" alt="Spore"></h2>
+<p>Spore is a 2008 life simulation real-time strategy god game developed by Maxis, published by Electronic Arts and designed by Will Wright, and released for PC. As a kid, I was captivated by the previews for Spore I saw in gaming magazines. I was excited by the idea of a creating my own creature, the flexibility of the system, and by the naturalistic behaviors and environments the devs had said they wanted to emulate.</p>
+<iframe class="sub topspace" width="560" height="315" src="https://www.youtube.com/embed/T8dvMDFOFnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>A demo of the game from GDCe 2005.</p>
+<section class="sub gameimg">
+<a href="img/sporedemo1.jpg" class="glightbox" data-description="" data-desc-position="bottom"><img src="img/sporedemo1.jpg"></a>
+<a href="img/sporedemo2.png" class="glightbox" data-description="" data-desc-position="bottom"><img src="img/sporedemo2.png"></a>
+<a href="img/sporedemo3.png" class="glightbox" data-description="" data-desc-position="bottom"><img src="img/sporedemo3.png"></a>
+<a href="img/sporedemo4.png" class="glightbox" data-description="" data-desc-position="bottom"><img src="img/sporedemo4.png"></a>
+<a href="img/sporedemo5.jpg" class="glightbox" data-description="" data-desc-position="bottom"><img src="img/sporedemo5.jpg"></a>
+<a href="img/sporedemo6.png" class="glightbox" data-description="" data-desc-position="bottom"><img src="img/sporedemo6.png"></a></section>
+<p>Previews from around 2005. Click for full size.</p>
+<p class="fill">The game's development took a turn as it became clear that it would not be able to accomplish the high goals it set out to achieve. <a href="https://spore.fandom.com/wiki/Removed_features" target="_blank">Many features ended up being cut</a>. In addition to this, The game's art style took a turn from naturalism to a more cartoony aesthetic. At the time, as a 12 year old kid, I was upset and disappointed by the shift, and followed the games development with mounting discontent. However, I held out hopes for the game and was excited when I finally got to play it.</p>
+<p>In many ways, Spore fell short of what many, including myself, hoped it would be. A combination of shooting too high, and a schism within the dev team on the game's style, lead to the a final product that floundered in its intents. However, it still remains an incredible creature creator - this is the part of the game that had the most effort and love put into it. While I don't see much worth in playing the game in its entirety, now and then I still go back to the creature creator. Creating creatures in Spore still remains popular today, which mods available to expand the game's capabilities.</p>
+</article>
+<h2 class="titlebar">My Creations</h2>
+<article id="mycreatures">
+<p>You can still download user-made creatures and buildings on the <a href="https://www.spore.com/sporepedia" target="_blank">Sporepedia</a> website.</p>
+<p>Check out the awesome creatures made by my friend <a href="https://www.spore.com/view/myspore/Bullrunp" arget="_blank">Bullrun</a>!</p>
+<p>I can't upload my creations as my game is modded, so I've put them all here. To download creatures to your game, save the transparent png on the left and put it in your "My Spore Creations" folder.</p>
+
+<section class="creaturegrid">
+
+  <div class="creatures data">
+    <img src="img/spore/benrey.png" alt="benrey" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/1.png\"><p>Created 5.6.2021<br><a href=../_/secret/benlet.html/_.html>Has his own page!</a></p>"'>
+    <img src="img/spore/gordgog%21%21.png" alt="gordgog!!" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/2.png\"><p>Created 5.6.2021</p>"'>
+    <img src="img/spore/Sharkbite.png" alt="Sharkbite" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/3.png\"><p>Created 5.8.2021</p>"'>
+    <img src="img/spore/Gabagool.png" alt="Gabagool" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/4.png\"><p>Created 5.8.2021</p>"'>
+    <img src="img/spore/Miasquito.png" alt="Miasquito" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/5.png\"><p>Created 5.9.2021</p>"'>
+    <img src="img/spore/Bearablooda.png" alt="Bearablooda" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/6.png\"><p>Created 5.9.2021</p>"'>
+    <img src="img/spore/Ostach.png" alt="Ostach" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/7.png\"><p>Created 5.9.2021</p>"'>
+    <img src="img/spore/Oceros.png" alt="Oceros" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/8.png\"><p>Created 5.9.2021</p>"'>
+    <img src="img/spore/Skinned%20Hound.png" alt="Skinned Hound" onclick='document.getElementById("profile").innerHTML="<div><img src=../_img/spore/9.png/_.html><p>Created 5.9.2021</p></div><div class=\"flex\"><div><img src=../_/work/byothers/kogohound.png/_.html><p>by kogo</p></div><div><img src=../_/work/byothers/skinnedhoundaoi.jpg/_.html><p>by aoi</p></div></div>"'>
+    <img src="img/spore/Santa%20Baby.png" alt="Santa Baby" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/10.png\"><p>Created 5.9.2021</p>"'>
+    <img src="img/spore/Mantapede.png" alt="Mantapede" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/11.png\"><p>Created 5.10.2021</p>"'>
+    <img src="img/spore/Jessifer.png" alt="Jessifer" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/12.png\"><p>Created 5.10.2021</p>"'>
+    <img src="img/spore/Baboomb.png" alt="Baboomb" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/14.png\"><p>Created 5.10.2021</p>"'>
+    <img src="img/spore/Cornucopia.png" alt="Cornucopia" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/15.png\"><p>Created 5.11.2021</p>"'>
+    <img src="img/spore/Lady%20Nighthawk.png" alt="Lady Nighthawk." onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/24.png\"><p>Created 5.12.2021</p>"'>
+    <img src="img/spore/Sawhorse.png" alt="Sawhorse" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/16.png\"><p>Created 5.12.2021</p>"'>
+    <img src="img/spore/gordgog%20man%21%21.png" alt="gordgog man!!" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/17.png\"><p>Created 5.13.2021</p>"'>
+    <img src="img/spore/A%20Normal%20Donkey.png" alt="A Normal Donkey" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/18.png\"><p>Created 5.13.2021</p>"'>
+    <img src="img/spore/benlet.png" alt="benlet" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/19.png\"><p>Created 5.13.2021<br><a href=../_/benlet.html/_.html>Has his own page!</a></p>"'>
+    <img src="img/spore/Parote.png" alt="Parote" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/20.png\"><p>Created 5.15.2021</p>"'>
+    <img src="img/spore/Vespid.png" alt="Vespid" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/21.png\"><p>Created 5.15.2021</p>"'>
+    <img src="img/spore/Fwee.png" alt="Fwee" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/22.png\"><p>Created 5.15.2021</p>"'>
+    <img src="img/spore/Seer.png" alt="Seer" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/25.png\"><p>Created 1.22.2022</p>"'>
+    <img src="img/spore/Woah.png" alt="Woah" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/28.png\"><p>Created 1.22.2022</p>"'>
+    <img src="img/spore/Handlebar.png" alt="Handlebar" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/29.png\"><p>Created 1.26.2022</p>"'>
+    <img src="img/spore/Lil%20Buge.png" alt="Lil Buge" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/30.png\"><p>Created 1.26.2022</p>"'>
+    <img src="img/spore/Kiwi.png" alt="Kiwi" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/31.png\"><p>Created 1.22.2022</p>"'>
+    <img src="img/spore/Greem%20Beam.png" alt="Greem Beam" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/32.png\"><p>Created 1.26.2022</p>"'>
+    <img src="img/spore/Binky.png" alt="Binky" onclick='document.getElementById("profile").innerHTML="<img src=\"img/spore/33.png\"><p>Created 1.26.2022</p>"'>
+  </div>
+
+
+<div id="profile" class="flex" >
+<p>Click on the icons!</p>
+</div>
+
+</section>
+</article>
+  <h2 class="titlebar">Spin-offs</h2>
+<article>
+  <h3><a href="https://en.wikipedia.org/wiki/Spore_Creatures" target="_blank">Spore Creatures</a></h3>
+  <div class="flex">
+    <div class="flex" style="max-width:30%;">
+    <a href="https://en.wikipedia.org/wiki/Spore_Creatures" target="_blank"><img src="../../upload.wikimedia.org/wikipedia/en/0/0d/Spore_Creatures_Coverart.png" style="max-width:100%;" class="hborder"></a>
+    </div>
+    <div style="max-width:66%">
+      <p class="left"><b>Platform</b>: Nintendo DS</p>
+      <p class="left spacer" style="max-width:30rem">A much simpler version of Spore focused entirely on the creature stage. Has a charming 2D artstyle with swappable parts, making the creatures look a little like paper puppets.</p>
+      <div class="flex" style="gap:.4rem"><img src="../../www.nintendo.com/eu/media/images/migration/games_7/screenshots/nintendo_ds_13/e3_nds_sporecreatures/sporecreatures_01.jpg" style="max-width:48%">
+      <img src="../../www.nintendo.com/eu/media/images/migration/games_7/screenshots/nintendo_ds_13/e3_nds_sporecreatures/sporecreatures_02.jpg" style="max-width:48%"></div></div>
+  </div>
+<hr>
+  <h3><a href="https://en.wikipedia.org/wiki/Spore_Origins" target="_blank">Spore Origins</a></h3>
+  <div class="flex">
+    <div class="flex" style="max-width:30%;">
+    <img src="../../upload.wikimedia.org/wikipedia/en/thumb/1/13/Sporemobile.jpg/220px-Sporemobile.jpg" width="100%" class="hborder"></div>
+    <div style="max-width:66%">
+      <p class="left"><b>Platform</b>: iPod, Mobile/iPhone, N-Gage</p>
+      <p class="left spacer" style="max-width:30rem">A simple game for mobile that focuses on the cell stage. Gets difficult in the later levels. I had this on my iPod....</p>
+      <img src="../../a2.mzstatic.com/us/r30/Purple/v4/61/c5/72/61c57279-3d38-2891-25c2-5f37ca49d5ef/screen320x320.jpg" style="max-width:48%">
+      <img src="../../cdn.arstechnica.net/wp-content/uploads/archive/journals/apple.media/spore03.jpg" style="max-width:48%">
+    </div></div>
+</article>
+		</section>
+		<aside class="side"></aside>
+	</main>
+<footer class="footer">
+hand-coded by synth. est 20X0
+</footer>
+    <script src="../style/randomtext.js"></script> 
+<script src="../dist/js/glightbox.min.js"></script><script type="text/javascript">
+  const lightbox = GLightbox({});
+</script>
+  </body>
+
+<!-- Mirrored from newlambda.neocities.org/games/spore by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jun 2025 15:56:55 GMT -->
+</html>

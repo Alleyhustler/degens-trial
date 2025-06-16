@@ -1,0 +1,122 @@
+body {
+   background-color: #222222;
+  background-image: url('../../style/ep_naturalblack.png');
+   color: white;
+   font-family: 'Trebuchet MS', sans-serif;
+   padding:0px;
+   margin:0px;
+}
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
+::selection {
+  background: #b3b3b3;
+  color: #000;
+}
+a:link {
+  color: #cfcfcf;
+  text-decoration: none;
+}
+a:visited {
+  color: #cfcfcf;
+  text-decoration: none;
+}
+a:hover {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+a.inline:link {
+  color: #ffffff;
+  text-decoration: underline dotted;
+}
+a.inline:visited {
+  color: #ffffff;
+  text-decoration: underline dotted;
+}
+a.inline:hover {
+  color: #b3b3b3;
+  text-decoration: underline;
+}
+a.inline:active {
+  color: #ffffff;
+  text-decoration: underline;
+} 
+main {
+  width:80%;
+  margin:auto;
+  text-align:center;
+  margin-bottom:60px;
+}
+.fanart{
+  width:90%;
+}
+.return {
+  position:absolute;
+  left:100px;
+	background-color: #111111;
+	border: 2px solid #000;
+	padding:4px 10px 4px 10px;
+	color: white;
+	font-size:12px;
+	cursor:pointer;
+}
+.return:hover {
+	background-color: #333333;
+}
+article {
+	border: 1px solid #000000;
+	background-color: #222222;
+	padding:15px;
+	max-width:1200px;
+	margin:25px auto 25px auto;
+}
+section {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+p {
+  text-align:left;
+  margin:1.286em 15px;
+  line-height: 1.5;
+}
+.notes {
+	max-width:400px;
+	padding:0px 10px;
+	font-size:14px;
+  text-align:justify;
+}
+h2 {font-family: 'Garamond', serif;}
+h3 {
+	font-size:21px;
+  margin-top:5px;
+  font-family: 'Garamond', serif;
+  }
+  h5 {
+    margin:5px 0px 15px 0px;}
+hr {
+  width: 33%;
+  margin: .875em auto 1.2525em auto;
+  border: 1px solid
+}
+.center {text-align:center;}
+  .gridit {
+  width: 500px;
+  height: auto;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+.gridit img {
+	border: 2px solid #000;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.gridit img:hover {
+  border-color: #cccccc;
+}
+.inline {
+  display: inline-block;}

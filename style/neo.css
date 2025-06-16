@@ -1,0 +1,240 @@
+::selection {
+	background: #7faf81;
+	color: #f7f7f7;
+}
+body {
+	background-color: #FFE37F;
+	background-image: url("neobg.png");
+	color: #000000;
+	font-family: 'Verdana', sans-serif;
+}
+header {
+	background-color: #FFC700;
+	color: #000000;
+	font-family: 'Verdana', sans-serif;
+	border:solid 2px #000;
+}
+.headernav {
+	background-color: #FFE37F;
+	color: #000000;
+	font-family: 'Verdana', sans-serif;
+	border-width:2px;
+	border-color:#000;
+	border-radius:0 0 5px 5px;
+}
+a:link {
+  color: #4272c7;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited {
+  color: #4272c7;
+  text-decoration: underline;
+  font-weight: bold;
+}
+a:hover {
+  color:#4272c7;
+  text-decoration: underline;
+  font-weight: bold;
+}
+header a:link {
+  color: #000;
+}
+header a:visited {
+  color: #000;
+}
+header a:hover {
+  color: #000;
+}
+div.headernav a:link {
+  color: #4272c7;
+  text-decoration: none;
+  font-weight: bold;
+}
+div.headernav a:visited {
+  color: #4272c7;
+  text-decoration: underline;
+  font-weight: bold;
+}
+div.headernav a:hover {
+  color:#4272c7;
+  text-decoration: underline;
+  font-weight: bold;
+}
+nav a:link {
+	color: #000;
+}
+nav a:visited {
+	color: #000;
+}
+nav a:hover {
+	color: #ffffff;
+}
+a.navheadl:link {
+	color: #000;
+}
+a.navheadl:visited {
+	color: #000;
+}
+a.navheadl:hover {
+	color: #ffffff;
+}
+.sidenav {
+	font-family: 'Verdana', sans-serif;
+}
+.navmenu {
+	background-image: none;
+  background-color: #fff;
+	border: solid 3px #000000;
+	border-top:none;
+	border-radius:0 0 5px 5px;
+}
+.navhead {
+	background-color: #FFC700;
+	border: solid 2px #000000;
+	border-right: none;
+	border-radius:0 0 0 5px;
+}
+.openbtn {color:#000}
+article {
+  background-image: url('neo.png');
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border: solid 3px #000000;
+  border-radius: 0 0 5px 5px;
+  border-top:none;
+  box-sizing: border-box;
+}
+.about{
+  background-image: url("neo1.png");
+  width:74px;
+  height:15px;
+  }
+.work{
+  background-image: url("neo5.png");
+  width:88px;
+  height:15px;
+  cursor:pointer;
+  }
+.games{
+  background-image: url("neo3.png");
+  width:80px;
+  height:15px;
+  }
+.stuff{
+  background-image: url("neo4.png");
+  width:119px;
+  height:15px;
+  }
+.explore{
+  background-image: url("neo6.png");
+  width:95px;
+  height:15px;
+  }
+h1 {
+  font-family: 'Verdana', sans-serif;
+  color: #000000;
+  font-weight: normal;
+  }
+h2 {
+  font-family: 'Verdana', sans-serif;
+  color: #000000;}
+h3 {
+  font-family: 'Verdana', sans-serif;
+  color: #000000;}
+h4 {
+  font-family: 'Verdana', sans-serif;
+  color: #000000;}
+h5 {
+  font-family: 'Verdana', sans-serif;
+  color: #000000;}
+h6 {
+  font-family: 'Verdana', sans-serif;
+  color: #000000;
+  font-weight: normal;
+  }
+h2 p {
+  margin-top:.2rem;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 130px;
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  padding: 5px;
+  transition-delay: .5s;
+  font-size:12px;
+  font-family:Verdana;
+  border-style:solid;
+  border-width:1px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 70px;
+}
+
+.tooltip2 .tooltiptext2 {
+  visibility: hidden;
+  background-color: #fff;
+  white-space: nowrap;
+  color: #000;
+  text-align: left;
+  padding: 5px;
+  transition-delay: .5s;
+  font-size:12px;
+  font-family:Verdana;
+  font-weight:bold;
+  border-style:solid;
+  border-width:1px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 100px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip2:hover .tooltiptext2 {
+  visibility: visible;
+}
+.itemlist{max-width:700px; margin:auto;}
+.hideninetwenty{display: block}
+.breakninetwenty{flex-basis: auto}
+@media screen and (max-width: 1200px) {
+  header{
+    border-left:none;
+    border-right:none;}
+  .headernav{border-radius:0}
+  .navmenu{border-left:none}
+}
+@media screen and (max-width: 1000px) {
+  article{
+    border-right:none;}
+    .righthalf{margin-top:1rem}
+}
+@media screen and (max-width: 920px) {
+  .hideninetwenty{display: none}
+  .breakninetwenty{flex-basis: 40%}
+}
+@media screen and (max-width: 680px) {
+  header{
+    border-top:none;}
+  article{
+    border-left:none;}
+}

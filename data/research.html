@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from newlambda.neocities.org/data/research by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jun 2025 15:58:24 GMT -->
+<head>
+<link rel="stylesheet" href="newlambda.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESEARCH FACILITY</title>
+     <link rel="icon" href="favicond41d.ico?" type="image/x-icon"> 
+	<script src="../../ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    </head>
+  <body>  
+<audio id="click"><source src="keyboardtab.mp3" type="audio/mpeg"></audio>
+  <main> 
+<div class="outer">
+<div class="main"> 
+  <header>
+  <div><h1>NEW LAMBDA RESEARCH FACILITY</h1>
+<h2>Xenobiological Observation and Research</h2></div>
+<img src="icon.png" class="icon">
+  </header>  
+  <article class="relative">
+  <p>Welcome to the New Lambda Research Facility Xenobiological Observation and Research Database.</p>
+<h3>Who We Are</h3>
+<p>The New Lambda Research Facility was founded in the wake of Earth's liberation from Combine control. Science-minded members of the Resistance sought to organize their research for the benefit of all liberated peoples on Earth. In acknowledging both the Black Mesa Research Facility's culpability in starting, and subsequent attempts to prevent what can only be called an apocalypse of the grandest proportions, the New Lambda Reseach Facility inherits its name from the Lambda Complex: a former department of the now defunct Black Mesa.</p>
+  <p>While the Black Mesa Research Facility sought to tightly control xenobiological research and those who engaged in it, New Lambda is dedicated to providing a public resource to help any individual re-adapting to life on a changed Earth. Those seeking more detailed infomation about the New Lambda Research Facility's origins should refer to <a href="https://combineoverwiki.net/wiki/Main_Page">the main database.</a></p>
+<h3>Our Research</h3>
+<p>The New Lambda Research Facility Xenobiological Observation and Research Team is dedicated to providing understanding and insight into the alien species that have come to call Earth home. While these species are by all means invasive, the scale of their naturalization reflect an immutable shift in Earth's ecosystem that our team hopes to understand. Our methods prioritize naturalistic observation and ethical study of all transplanted xenobiology. Our goal is to seek an understanding of all transplanted xenobiology that allows successful coexistence with our new neighbors on Earth.</p>
+<section class="researchnav arrow"><p>Please Make a Selection:</p>
+<a href="xeno.html">Xenozoology</a>
+<p><i>[breedz]</i></p>
+<a href="eco.html">Ecology</a>
+<p><i>[playscenes]</i></p>
+</section>
+<img src="logo1.png" class="logo1">
+</article>
+  <nav>
+<p>About</p>
+<p><a href="xeno.html">Xenozoology</a></p>
+<p><a href="eco.html">Ecology</a></p>
+<p><a href="index.html">Return</a></p>
+<img src="../img/nlbutton1.gif" class="nlbutton">
+  </nav>
+</div>
+</div>
+</main>
+<div class="gome" onclick='playAudio("hahe.mp3")'></div>
+<script>
+$("a")
+  .each(function(i) {
+    if (i != 0) { 
+      $("#click")
+        .clone()
+        .attr("id", "click" + i)
+        .appendTo($(this).parent()); 
+    }
+    $(this).data("bttnclick", i);
+  })
+  .mouseenter(function() {
+    $("#click" + $(this).data("bttnclick"))[0].play();
+  });
+$("#click").attr("id", "click0");</script>
+    <script>
+function playAudio(url) {
+  new Audio(url).play();
+}
+</script>	
+  </body>
+
+<!-- Mirrored from newlambda.neocities.org/data/research by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jun 2025 15:58:25 GMT -->
+</html>

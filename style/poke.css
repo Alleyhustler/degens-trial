@@ -1,0 +1,131 @@
+:root{
+  --main-border: solid 2px #505058;;
+  --color1: #484848;
+	--link-color: #F8F8F8;
+	--link-alt-color: #F8F8F8;
+	--heading-color: #F8F8F8;
+}
+body {
+	background-color: #70C0A0;
+	background-image: url('pokebg.png');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	color: #F8F8F8;
+	text-shadow: #685870 1px 1px;}
+.quote{font-style: normal;}
+header,.headernav {
+  border-bottom:2px solid #D04838;
+	background-color: #68A0A0;
+	box-shadow: 0px 4px #484050, 6px 6px rgba(0, 0, 0, .3);
+}
+.headernav{
+  border-left:4px solid #D04838;
+  border-right:4px solid #D04838;
+  border-radius: 0 0 4px 4px;}
+::selection {
+	background: #685870;
+	color: #f8f8f8;
+}
+.navmenu {
+	background-color: #9090A8;
+	background-image: none;
+	border-radius:4px;
+	border: 2px solid #505058;
+	border-top:none;
+	text-shadow: #000 1px 1px;
+	box-shadow: 6px 6px rgba(0, 0, 0, .3);
+}
+.navhead {
+  color:#fff;
+	background-color: #707078;
+	height:2rem;
+	padding-left:1.25rem;
+	border-radius:4px 0 0 4px;
+}
+.startnav {
+  padding-top:.4rem;
+}
+.menub{
+	background-color: rgba(0, 0, 0, .7);
+	color: #ff984f;
+  border-radius:0 0 4px 4px;
+  z-index:2;
+	color:#D57661;
+  }
+.about{
+  background-image: url("about.png");
+  width:80px;
+  height:19px;
+  margin: 0rem;
+  }
+.work{
+  background-image: url("work.png");
+  width:72px;
+  height:19px;
+  cursor: url('petzpoint.png'), auto;	
+  margin: 0rem;
+  }
+.games{
+  background-image: url("games.png");
+  width:78px;
+  height:19px;
+  cursor: url('petzpoint.png'), auto;	
+  margin: 0rem;
+  }
+.stuff{
+  background-image: url("stuff.png");
+  width:65px;
+  height:19px;
+  margin: 0rem;
+  }
+.explore{
+  background-image: url("explore.png");
+  width:98px;
+  height:19px;
+  margin: 0rem;
+  }
+article {
+	background-color: #9090A8;
+	border-radius:4px;
+	border-top: var(--main-border);
+	box-shadow: 6px 6px rgba(0, 0, 0, .3);
+}
+.flexarticlecont article {
+	border-radius:4px;}
+.firstgap{
+	border-radius:4px;}
+.submenu,.titlebar {
+  text-shadow: #D0D0C8 1px 1px;
+	background-color: #F8F8F8;
+	border-image-slice: 6 6 6 6;
+  border-image-width: 0px 6px 6px 6px;
+  border-image-outset: 0px 1px 1px 1px;
+  border-image-repeat: repeat repeat;
+  border-image-source: url("pokeborder.png");
+  border-style: solid;
+  color:#606060;
+  max-width:fit-content;
+  }
+.submenu {
+  margin-top:4px;
+  padding:.2rem 2rem .4rem;}
+.submenu h2,.submenu a {
+  color:#606060;
+  }
+.submenu a,p a:link,p a:visited {text-decoration: underline solid;}
+.submenu a:hover,p a:hover {color: #D04838;}
+.titlebar {
+  border-image-width: 6px 6px 0px 6px;
+  border-image-outset: 1px 1px 0px 1px;
+  padding:.4rem 1rem .25rem;}
+article>.titlebar {
+	border-radius:0 ;
+}
+footer {
+  color:#f8f8f8;
+	text-shadow: #685870 1px 1px;
+}
+@media screen and (max-width: 680px) {
+.navmenu {
+	background-color: rgba(0, 0, 0, 0.9);
+}}

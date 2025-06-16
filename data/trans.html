@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from newlambda.neocities.org/data/trans by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jun 2025 16:11:43 GMT -->
+<head>
+<link rel="stylesheet" href="newlambda.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESEARCH FACILITY</title>
+     <link rel="icon" href="favicond41d.ico?" type="image/x-icon"> 
+	<script src="../../ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    </head>
+  <body>  
+<audio id="click"><source src="keyboardtab.mp3" type="audio/mpeg"></audio>
+  <main> 
+<div class="outer">
+<div class="main"> 
+  <header>
+  <div><h1>NEW LAMBDA RESEARCH FACILITY</h1>
+<h2>Transformative Works</h2></div>
+<img src="icon.png" class="icon">
+  </header>  
+  <article class="relative">
+  <p>This directory serves to catalogue contemporary works made by individuals unaffiliated with the New Lambda Research Facility.</p>
+  <div class="flex">
+<section class="indent arrow">
+<a href="https://maxkillertart.tumblr.com/tagged/power-source-magazine" target="_blank" data-img='<img src="img/powersourcemaxkillertart.png">'>Power Source Magazine</a>
+<a href="https://zarla-s.tumblr.com/post/622398307036282880/zarla-s-so-i-made-a-gordon-freeman-flele-and-as" target="_blank" data-img='<img src="corrupt/flele.png">'>Gordon Freeman FLELE</a>
+<a href="https://www.youtube.com/watch?v=yaHrneT9BfU&amp;list=PLglTodSj6fQErcsJb7jLCJgFdmQMfdJks" target="_blank" data-img='<img src="img/gnome.png">'>Half-Life: Alyx but the Gnome is TOO AWARE</a>
+<a href="https://www.youtube.com/watch?v=vDUYLDtC5Qw&amp;list=PLglTodSj6fQGbLTtPF_YXVJ6TKSaC3O02" target="_blank" data-img='<img src="img/hlvrai.png">'>Half-Life but the AI is Self Aware</a>
+<a href="https://www.youtube.com/watch?v=5SQhfkpX9bc&amp;list=PL6PNZBb6b9LvDWpI-5CPYUxG1Rnm-vr9V" target="_blank" data-img='<img src="img/freemind.png">'>Freeman's Mind</a>
+<p>Note: Made in the early 2000s; the humor shows its age.</p>
+</section>
+<section><div class="pic"></div>
+</section>
+</div>
+</article>
+  <nav>
+<p><a href="index.html">Return</a></p>
+<img src="../img/nlbutton1.gif" class="nlbutton">
+  </nav>
+</div>
+</div>
+</main>
+<div class="gome" onclick='playAudio("hahe.mp3")'></div>
+<script>
+  $(document).ready(function() {
+    $("section>a").hover(function () {
+      var htmlString = $( this ).data("img");
+      $(".pic").html( htmlString );
+    });
+  });
+</script>
+<script>
+$("a")
+  .each(function(i) {
+    if (i != 0) { 
+      $("#click")
+        .clone()
+        .attr("id", "click" + i)
+        .appendTo($(this).parent()); 
+    }
+    $(this).data("bttnclick", i);
+  })
+  .mouseenter(function() {
+    $("#click" + $(this).data("bttnclick"))[0].play();
+  });
+$("#click").attr("id", "click0");</script>	
+    <script>
+function playAudio(url) {
+  new Audio(url).play();
+}
+</script>
+  </body>
+
+<!-- Mirrored from newlambda.neocities.org/data/trans by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jun 2025 16:11:45 GMT -->
+</html>

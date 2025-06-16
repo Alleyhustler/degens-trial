@@ -1,0 +1,74 @@
+.crewgrid{
+	display: grid;
+	grid-template-areas:
+		"dogz info"
+		"catz info";
+	grid-template-columns: 1fr 1fr;
+  max-width: 57rem;
+  min-height:41rem;
+  gap:1rem;
+  margin: 1rem auto 0;
+}
+  .crewgrid>article{margin:0}
+  #dogz,#catz{
+  padding-top:.6rem
+}
+  #dogz{
+	grid-area: dogz;}
+  #catz{
+	grid-area: catz;
+    }
+  #info {
+	grid-area: info;
+	background-image: url('../../style/cork-board.png');
+	padding: .2rem;
+	display:flex;
+	flex-direction:column;
+	justify-content:center
+	}
+  .petimg,.petinfo,.mcenter {
+  padding: .6rem;
+	background-image: url('../../style/ep_natural.png');
+  box-sizing:border-box;
+  border-radius:6px;
+  }
+  .petimg {
+  height:26.3rem;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  }
+.petinfo {
+  width:100%;
+	font-family: 'Courier New', Monospace;
+  height:12rem;
+  margin-top: 1rem;
+}
+.iconbox {
+  text-align:left;
+  height:222px;
+  overflow-y:scroll;
+  scrollbar-width:thin;
+}
+
+@media screen and (max-width: 37.5rem) {
+    .crewgrid{
+	grid-template-areas:
+		"dogz"
+		"catz"
+		"info";
+	grid-template-columns: 1fr;
+  min-height:unset;
+      }
+  #dogz,#catz{
+  max-height:160px;
+    }
+  #dogz img,#catz img{
+  max-width:50px;
+    }
+.iconbox {
+  text-align:left;
+  height:101px;}
+}
+    
